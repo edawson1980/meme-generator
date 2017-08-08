@@ -13,6 +13,10 @@ var main = function(){
     $bottomBit = $("#bottom-bit").val();
     $(".bottom-line").text($bottomBit);
   });
+  $("#image-url").keyup(function(){
+    $imageUrl = $("#image-url").val();
+    $("img").attr("src", $imageUrl);
+  });
 
 };
 
