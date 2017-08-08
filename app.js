@@ -9,6 +9,10 @@ var main = function(){
     $topBit = $("#top-bit").val();
     $(".top-line").text($topBit);
   });
+  $("#bottom-bit").keyup(function(){
+    $bottomBit = $("#bottom-bit").val();
+    $(".bottom-line").text($bottomBit);
+  });
 
 };
 
