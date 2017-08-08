@@ -1,6 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
+  font-family: 'Fontdiner Swanky', cursive;
+
 }
 
 .welcome {
@@ -9,4 +11,13 @@
 
 h1 {
   color: purple;
+}
+
+img {
+margin-left: 10%;
+}
+
+.top-line {
+  display: block;
+  top: 10px;
 }
